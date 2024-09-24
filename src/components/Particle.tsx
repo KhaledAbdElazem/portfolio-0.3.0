@@ -1,28 +1,11 @@
-import React from "react";
+
 import Particles from "react-tsparticles";
-import { Engine, Container } from "tsparticles-engine";
-import { loadFull } from "tsparticles";
 
-const Particle: React.FC = () => {
-  const particlesInit = async (engine: Engine): Promise<void> => {
-    // Load the tsparticles engine to handle the particle animations
-    console.log(engine);
-    await loadFull(engine);
-  };
-
-  const particlesLoaded = async (container: Container | undefined): Promise<void> => {
-    // Callback once the particles have loaded
-    if (container) {
-      console.log(container);
-    }
-  };
-
+function Particle() {
   return (
     <Particles
       id="tsparticles"
-      init={particlesInit}
-      loaded={particlesLoaded}
-      options={{
+      params={{
         particles: {
           number: {
             value: 160,
@@ -67,5 +50,6 @@ const Particle: React.FC = () => {
       }}
     />
   );
-};
+}
+
 export default Particle;
