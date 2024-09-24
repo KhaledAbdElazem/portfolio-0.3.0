@@ -3,7 +3,7 @@ import './App.css'
 import './style.css'
 import { useState, useEffect } from "react";
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route,  } from "react-router-dom";
 import Home from "./components/Home/Home";  // Your Home component
 import Navbar from "./components/Navbar";  // Example of another component/page
 import Footer from "./components/Footer";  // Optional: for 404 handling
@@ -37,7 +37,7 @@ const App: React.FC = () => {
           <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
-          <Route path="*" element={<Navigate to="/"/>} />
+          <Route path="*" element={<Home />} />
         </Routes>
         <Footer />
       </div>
