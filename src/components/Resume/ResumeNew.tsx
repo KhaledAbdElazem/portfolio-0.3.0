@@ -13,7 +13,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
 ).toString();
 
 // Import your PDF file
-import pdf from "../../assets/Khaled-Abdelazem.pdf";
+import pdf from "../../assets/resume.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1000);
