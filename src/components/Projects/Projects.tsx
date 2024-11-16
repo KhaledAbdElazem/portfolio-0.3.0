@@ -26,7 +26,7 @@ function Projects() {
               title="Hue-Game"
               description="Hue Color Puzzle Game is a relaxing and elegant puzzle game where players need to arrange tiles according to their hues. The game offers a basic mode with multiple levels and provides AI hints to assist players when needed."
               ghLink="https://github.com/KhaledAbdElazem/AI_Hue_Color_Puzzle_game"
-              demoLink="https://hue-colors.giize.com/"
+{/*               demoLink="https://hue-colors.giize.com/" */}
             />
           </Col>
 
@@ -59,7 +59,7 @@ function Projects() {
               title="Pure-Online-Store"
               description="AKATSUKE is a premium e-commerce platform offering a wide range of stylish products, from backpacks to casual wear. With a clean interface and easy navigation, users can explore high-quality items for everyday use. Shop now for a seamless, top-tier shopping experience."
               ghLink="https://github.com/KhaledAbdElazem/Pure-Online-Store"
-              demoLink=" http://pure-online-store.giize.com/"
+{/*               demoLink=" http://pure-online-store.giize.com/" */}
             />
           </Col>
 {/* 
