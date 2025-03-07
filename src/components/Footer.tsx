@@ -3,9 +3,12 @@ import {
   AiFillGithub,
   AiFillFacebook,
   AiFillMail,
-  AiOutlineQrcode,
+  // AiOutlineQrcode,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn ,
+  FaTelegramPlane,
+  FaWhatsapp
+} from "react-icons/fa";
 
 function Footer() {
   const date = new Date();
@@ -14,7 +17,7 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Khaled Abd-Elazem </h3>
+          <h3>Developed by Khaled Abd-Elazem </h3>
         </Col>
         <Col md="4" className="footer-copywright">
           <h3>Copyright © {year}</h3>
@@ -34,7 +37,7 @@ function Footer() {
 
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/khaled-moustafa-180847295/"
+                href="https://www.linkedin.com/in/khaled-abdelazem"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -65,12 +68,22 @@ function Footer() {
 
             <li className="social-icons">
               <a
-                href="https://drive.google.com/file/d/1zKA_ubxDg2873dancRcLnhgQBvvtVVJe/view?usp=sharing"
+                href="https://t.me/+201067439181"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <AiOutlineQrcode />
+                <FaTelegramPlane/>
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="https://wa.me/201067439181"
+                style={{ color: "white" }}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaWhatsapp/>
               </a>
             </li>
           </ul>
