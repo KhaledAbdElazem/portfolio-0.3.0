@@ -6,6 +6,8 @@ import store2 from "../../assets/Projects/Store2.png";
 import task from "../../assets/Projects/Task.png";
 import game from "../../assets/Projects/Game.png";
 import store from "../../assets/Projects/Store.png";
+import Music from "../../assets/Projects/Music.png";
+import MCQ from "../../assets/Projects/MCQ.png";
 
 function Projects() {
   return (
@@ -19,6 +21,30 @@ function Projects() {
           Here are a few projects I&#39;ve worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={MCQ}
+              isBlog={false}
+              title="MCQ-Study-Companion"
+              description="The Mystical MCQ Study Companion is a web application designed to help students generate multiple-choice questions (MCQs) from lecture materials (PDFs, text files, etc.) and test their knowledge through interactive quizzes. The app uses the Gemini API to generate questions and provides a modern, user-friendly interface with dark mode support.
+
+"
+              ghLink="https://github.com/KhaledAbdElazem/MCQ-Study-Companion"
+            // demoLink=""
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Music}
+              isBlog={false}
+              title="Cyberpunk Music Player"
+              description="A stylish, cyberpunk-themed music player built with Electron.js, offering a neon-colored interface and features like local audio playback, playlist support, volume and progress controls, an audio visualizer, background playback, and convenient system tray controls."
+              ghLink="https://github.com/KhaledAbdElazem/electron-music-player"
+            // demoLink=""
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={game}
@@ -26,7 +52,7 @@ function Projects() {
               title="Hue-Game"
               description="Hue Color Puzzle Game is a relaxing and elegant puzzle game where players need to arrange tiles according to their hues. The game offers a basic mode with multiple levels and provides AI hints to assist players when needed."
               ghLink="https://github.com/KhaledAbdElazem/AI_Hue_Color_Puzzle_game"
-//          demoLink="https://hue-colors.giize.com/" 
+            //          demoLink="https://hue-colors.giize.com/" 
             />
           </Col>
 
@@ -37,7 +63,7 @@ function Projects() {
               title="Online-Store"
               description="Our e-commerce platform provides a seamless shopping experience with a wide range of products, from fashion to electronics. Users can easily browse best-sellers, view detailed descriptions, and add items to their cart. With secure checkout and AI-powered recommendations, we ensure a smooth and personalized shopping journey. Quality and customer satisfaction are our top priorities."
               ghLink="https://github.com/KhaledAbdElazem/Online-Store-Frontend"
-              // demoLink=""
+            // demoLink=""
             />
           </Col>
 
@@ -48,7 +74,7 @@ function Projects() {
               title="React-Task-Manager"
               description="This React-based To-Do List app allows users to easily add, edit, or delete tasks. It features a clean, intuitive UI, making task management simple and efficient. Perfect for organizing daily tasks with a sleek design and responsive functionality."
               ghLink="https://github.com/KhaledAbdElazem/TODO_LIST_REACT"
-              // demoLink=""              
+            // demoLink=""              
             />
           </Col>
 
@@ -59,10 +85,10 @@ function Projects() {
               title="Pure-Online-Store"
               description="AKATSUKE is a premium e-commerce platform offering a wide range of stylish products, from backpacks to casual wear. With a clean interface and easy navigation, users can explore high-quality items for everyday use. Shop now for a seamless, top-tier shopping experience."
               ghLink="https://github.com/KhaledAbdElazem/Pure-Online-Store"
-//              demoLink=" http://pure-online-store.giize.com/" 
+            //              demoLink=" http://pure-online-store.giize.com/" 
             />
           </Col>
-{/* 
+          {/* 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={suicide}
