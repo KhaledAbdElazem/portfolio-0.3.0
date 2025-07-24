@@ -98,6 +98,18 @@ const Home: React.FC = () => {
         </motion.div>
       </Container>
       <Home2 />
+      
+      {/* SEO Links - Hidden but crawlable by Google */}
+      <div style={{ 
+        position: 'absolute', 
+        left: '-9999px', 
+        top: '-9999px',
+        visibility: 'hidden'
+      }}>
+        <a href="/about">About Khaled Abdelazem</a>
+        <a href="/project">Khaled Abdelazem Projects</a>
+        <a href="/resume">Khaled Abdelazem Resume</a>
+      </div>
     </section>
   );
 };
