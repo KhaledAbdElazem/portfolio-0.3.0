@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://khaled-abdelazem.vercel.app/sitemap.xml
+
+# Host
+Host: https://khaled-abdelazem.vercel.app/
